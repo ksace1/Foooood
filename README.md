@@ -1,1 +1,1 @@
-# Foooood
+#  MILESTONE 2 - WEEK 7: Draft of HTML / CSS (no JS)
