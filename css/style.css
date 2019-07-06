@@ -213,6 +213,10 @@ h2 {
     font-weight: 600;
 }
 
+wrapper-2 h2{
+    margin: auto;
+}
+
 .latest-cards {
     padding: 42px 0;
     display: flex;
@@ -372,6 +376,11 @@ h2 {
     z-index: 0;
 }
 
+.overview{
+    margin-left: 95px;
+   
+}
+
 .main-text {
     position: relative;
     background-color: #ffd1c3;
@@ -380,7 +389,6 @@ h2 {
     width: 800px;
     padding: 40px 40px;
     z-index: 1;
-    margin-left: 95px;
     top: -100px;
 }
 
@@ -643,39 +651,37 @@ a {
 /* Breakpoints
 /*******************************************/
 
-@media (max-width:1400px) and (min-width: 768px) {
-    .wrapper-2 {
-        margin: 0 auto;
-    }
-    .latest-cards {
-        width: 90%;  
+@media (max-width:1200px) {
+
+    .lastest-recipes{
+        margin-left: 0;
+        right: 0;
+
     }
 
-    .card-1{
-        width: 320px;
-        height: 320px;
+    .wrapper-2{
+        padding:196px 30px ;
+    }
+    
+    wrapper-2 h2{
+        margin: auto;
+    }
+   .latest-cards{
+    width:10%%;
+   }
+
+    .overview{
+        margin: auto;
+        
     }
 
-    .card-2{
-        width: 320px;
-        height: 320px;
-    }
-
-    .card-3{
-        width: 320px;
-        height: 320px;
-    }
-
-    .container-1{
-        width: 320px;
-    }
-
-    .container-2{
-        width: 320px;
+    .row-resturants{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
-@media (max-width:768px) and (min-width: 480px) {
+@media (max-width:768px) {
     sub {
         font-size: 24px;
     }
@@ -707,4 +713,19 @@ a {
     .two-colm {
      display: inline-block;
     }
+}
+
+@media (max-width:640px){
+
+    .wrapper-2{
+        width: 
+    }
+    h2{
+        margin: 0 auto;
+    }
+    .card-2,.card-3{
+    margin-top: 160px;
+        
+    }
+
 }
