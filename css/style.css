@@ -717,15 +717,63 @@ a {
 
 @media (max-width:640px){
 
+    .wrapper-3 {
+        max-width: 640px;
+        margin: 0 auto;
+        padding: 196px 42px;
+    }
+
+    .main-image{
+        height:450px;
+    }
+
+    .overview{
+        margin-left: 45px;
+    }
+
+    .main-text{
+        width: 460px;
+    }
+
+    .main-text p{
+        padding-top: 24px;
+        width: 370px;
+        padding-left: 0px;
+    }
+
+    .flex-flex{
+       display: inline-block;
+       width:320px;
+    }
+
+    .row-resturants{
+        margin-left: 0;
+        width: 556px;
+    }
+
+    .res-1,.res-2{
+        width: 556px;
+    }
+
+    .container-res{
+        width: 480px;
+    }
+
+    .res-2{
+        margin-top: 32px;
+    }
+
     .wrapper-2{
         width: 
     }
+
     h2{
         margin: 0 auto;
+        text-align: center;
     }
     .card-2,.card-3{
     margin-top: 160px;
-        
     }
 
+   
 }
