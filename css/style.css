@@ -775,5 +775,15 @@ a {
     margin-top: 160px;
     }
 
+    .two-colm ul{
+        display: inline-block;
+        margin-left: 0;
+    }
+
+    .two-colm li{
+        line-height: 42px;
+        margin-left: 0;
+        padding-left: 0px;
+    }
    
 }
